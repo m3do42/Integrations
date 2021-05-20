@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body { background:url(../img/bg.jpg) repeat-x 0 0 #350d15;}
+
+#wrapper { margin:10px auto; width:990px;}
+
+#header { background:#491426; height:114px; position:relative; margin-bottom:10px;}
+#header #logo { width:123px; margin:0 auto; padding:10px;}
+#header #nav { position:absolute; left:0; bottom:10px;}
+#header #nav li { float:left; margin:0 25px;}
+#header #nav li.space { padding: 0 58px 0 0;}
+#header #nav li a { color:#fff; text-transform:uppercase;}
+#header #nav li.active a { color:#b6305c; font-weight:bold;}
+
+
+#content { position:relative; margin-bottom:10px;}
+.homepage #content h1 { position:absolute; left:-9999px;}
+#content .text { position:absolute; top:20px; right:20px; width:330px; }
+#content .text h2 { padding:10px; text-shadow:#000 1px 1px 1px; background-color:#82666a; background-color: rgba(73, 20, 38, 0.5); color:#fff; font-size:13px;}
+#content .text h2 span { display:block; font-size:30px; font-family:"Times New Roman", Times, serif;}
+#content .text a { display:block; color:#f1447f; font-size:13px; padding:10px;  background-color:#542332; background-color: rgba(73, 20, 38, 0.9);}
+
+#boxes { height:123px; margin-bottom:10px;}
+#boxes .box { float:left;overflow: hidden; position:relative; border-right:1px solid #fff;}
+#boxes .last {border:0;}
+#boxes h3 { position:absolute; top:0; left:0; padding:8px; background-color:#82666a; background-color: rgba(73, 20, 38, 0.5); width:314px; color:#FFF; font-size:14px; text-transform:uppercase;}
+
+#footer { position:relative; background:#000; color:#fff; padding:7px;}
+#footer a { color:#fff;}
+#footer p { position:absolute; right:7px; top:4px; background:url(../img/baseline.jpg) no-repeat 0 0; height:18px; width:176px; text-indent:-99999px;}
+
+
+
+
+

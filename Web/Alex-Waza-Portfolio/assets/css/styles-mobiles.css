@@ -1,0 +1,246 @@
+/* COMMON */
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('Roboto-Light.ttf');
+	font-weight: light;
+	font-style: light;
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('Roboto-Regular.ttf');
+	font-weight: regular;
+	font-style: regular;
+}
+
+span {
+	font-weight: bold;
+	font-family: "Roboto-Regular";
+	font-size: 20px;
+}
+
+.wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	display: block;
+}
+
+/* **************************** */
+
+
+/* HEADER */
+header {
+	text-align: center;
+	background-color: #ffc107;
+	padding-top: 20px;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: light;
+	font-family: "Roboto-Light";
+	font-size: 40px;
+}
+
+h1 span {
+	font-size: 40px;
+}
+
+header nav, header nav ul, header nav ul li {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+header nav {
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding-bottom: 20px;
+	display: block;
+}
+
+header nav ul {
+	margin-right: 0px;
+}
+
+header nav ul li {
+	display: block;
+}
+
+header nav ul li a {
+	font-family: "Roboto-Light";
+	font-size: 20px;
+	text-decoration: none;
+	color: #212121;
+	text-transform: uppercase;
+}
+
+.laptop {
+	display: none;
+}
+/* ******************************** */
+
+
+/* CONTENT */
+h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: light;
+	font-family: "Roboto-Light";
+	font-size: 10px;
+}
+	/* last work section */
+
+.lastWork h2 {
+	font-size: 20px;
+	color: #ff6f00;
+	text-align: center;
+}
+h2 span {
+	font-size: 20px;
+
+}
+
+.lastWork ul li{
+	display: block;
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lastWork ul li img {
+	margin-bottom: 10px;
+}
+
+.lastWork ul li p {
+	
+}
+ 
+.lastWork ul li img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lastWork .wrapper div {
+	height: 10px;
+	margin-top: 10px;
+	padding: 10px 20px;
+	padding-bottom: 15px;
+	background-color: #ff6f00;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper div a {
+	color: white;
+	font-family: "Roboto-Light";
+	font-weight: light;
+	font-size: 12px;
+}
+
+.wrapper div a span {
+	color: white;
+	font-family: "Roboto-Light";
+	font-weight: light;
+	font-size: 10px;
+	float: right;
+}
+	/* *************************** */
+
+	/* contact section */
+.contact {
+	padding-top: 20px;
+	background-color: #ffc107;
+}
+
+
+.contact h2 {
+	margin-top: 20px;
+	font-size: 20px;
+	color: #212121;
+	text-align: center;
+}
+
+.contact p {
+	color: #212121;
+	font-family: "Roboto-Regular";
+	font-weight: normal;
+}
+
+.contact p:first-child {
+	margin-bottom: 10px;
+}
+.contact ul li {
+	display: block;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact form {
+	padding-bottom: 20px;
+	margin-top: 10px;
+	width: 420px;
+	margin-left: 0px;
+}
+
+.contact form input {
+	width: 410px;
+	height: 50px;
+	margin-bottom: 10px;
+	padding-left: 10px; 
+	border-radius: 5px;
+}
+
+.contact form textarea {
+	width: 410px;
+	height: 260px;
+	margin-bottom: 10px;
+	padding-left: 10px; 
+	border-radius: 5px;
+}
+
+.contact_submit {
+	height: 10px;
+	width: 420px;
+	padding: 10px 20px;
+	padding-bottom: 15px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.contact form .contact_submit input {
+	color: white;
+	font-family: "Roboto-Light";
+	background-color: #ff6f00;
+	font-weight: light;
+	border-radius: 5px;
+	height: 10px;
+	width: 300px;
+	padding: 10px 20px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	font-size: 12px;
+}
+	/* *************************** */
+
+/* *************************** */

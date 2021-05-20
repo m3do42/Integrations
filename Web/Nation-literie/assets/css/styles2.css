@@ -1,0 +1,39 @@
+/* CSS Document */
+
+body { background:url(../img/bg.jpg) repeat-x 0 0 #350d15;}
+
+#wrapper { width:990px; margin:10px auto;}
+
+
+#header { background:#491426; -webkit-box-shadow: 0px 0px 20px 5px #000; -moz-box-shadow: 0px 0px 20px 5px #000; box-shadow: 0px 0px 20px 5px #000; margin-bottom:10px; height:114px; position:relative;}
+#header #logo { width:123px; margin:0 auto; padding:10px 0;}
+#header #nav { position: absolute; bottom:10px;}
+#header #nav li { display:inline; margin:0 22px; text-transform:uppercase;}
+#header #nav li.space { margin-right:100px;}
+#header #nav li a { color:#fff;}
+#header #nav li.active a  { color:#b6305c; font-weight:bold;}
+#header #nav li a:hover  { color:#b6305c; }
+
+
+#content { margin-bottom:10px; position:relative; -webkit-box-shadow: 0px 0px 20px 5px #000; -moz-box-shadow: 0px 0px 20px 5px #000; box-shadow: 0px 0px 20px 5px #000;}
+#content h1 { font-size:22px; color:#87445c;}
+.homepage #content h1 { position:absolute; left:-99999px;}
+#content .text { position:absolute; top:20px; right:20px; width:330px; }
+#content .text h2 { padding:10px; text-shadow:1px 1px 0 #000; filter: dropshadow(color=#000, offx=1, offy=1); background:#8f7072; background-color: rgba(73, 20, 38, 0.5); color:#fff; font-size:13px;}
+#content .text h2 span { display:block;font-family:"Times New Roman", Times, serif; font-size:30px;}
+#content .text a { display:block; padding:10px; background:#542332; background-color: rgba(73, 20, 38, 0.9); color:#f1447f; font-size:13px; }
+
+#boxes { margin-bottom:10px; float:left; -webkit-box-shadow: 0px 0px 20px 5px #000; -moz-box-shadow: 0px 0px 20px 5px #000; box-shadow: 0px 0px 20px 5px #000; }
+#boxes .box { float:left; background:#dad5cf; overflow: hidden; position:relative; width:329px; border-right:1px solid #fff;}
+#boxes .last { border:0;}
+#boxes .box h3 { position:absolute; width:315px; top:0; left:0; background:#643746; background-color: rgba(73, 20, 38, 0.85); padding:7px; color:#fff; text-transform:uppercase; font-size:14px;}
+
+
+#footer { clear:left; background:#000; -webkit-box-shadow: 0px 0px 20px 5px #000; -moz-box-shadow: 0px 0px 20px 5px #000; box-shadow: 0px 0px 20px 5px #000; color:#FFF; padding:7px;}
+#footer a { color:#FFF; margin:0 3px;}
+#footer p { float:right; background:url(../img/baseline.jpg) no-repeat 0 0; height:18px; width:176px; text-indent:-99999px; margin-top:-4px;}
+
+
+
+
+
